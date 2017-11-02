@@ -1,8 +1,0 @@
-#minimalnata potrebna verzija na cmake ja postavuvame so
-cmake_minimum_required (VERSION 2.6)
-
-#postavuvame ime na proektot, voedno so toa ja postavuvame PROJECT_NAME promenlivata
-project(domasna3)
-
-#.exe datotekata ja imenuvame Domashna3 i go koristime izvorniot kod main.c
-add_executable(${PROJECT_NAME} main.c)
